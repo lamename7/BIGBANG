@@ -1,0 +1,53 @@
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 17px;
+  text-align: center;
+  background-color: #77F3F5;
+  color: black;
+  margin: 3em;
+}
+
+strong {
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
+button {
+  background: #dd7973;
+  color: black;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1.2em;
+  font-family: helvetica;
+  font-weight: bold;
+}
+button:active {
+  background: red;
+}
+
+.scoreboard {
+  width: 14em;
+  margin: auto;
+  border: 0.5px solid #00008B;
+}
+.scoreboard h2 {
+  border-bottom: 0.5px solid #00008B ;
+  margin: 0;
+  padding: 7px;
+}
+.scoreboard table {
+  margin: 10px auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+.scoreboard th, .scoreboard td {
+  text-align: center;
+}
+.scoreboard td {
+  font-size: 3em;
+  padding: 0 20px;
+}
+
+#status {
+  margin-top: 20px;
+}
